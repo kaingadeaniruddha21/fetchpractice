@@ -1,0 +1,149 @@
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining
+$ git --version
+git version 2.33.1.windows.1
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining
+$ cd day1
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1
+$ mkdir gitexample
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1
+$ ls
+gitexample/
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1
+$ cd gitexample
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ touch file1.txt
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ ls
+file1.txt
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ touch file99.txt
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ ls
+file1.txt  file99.txt
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ rm file99.txt
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ ls
+file1.txt
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ cat file1.txt
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ touch file2.txt
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ touch file3.txt
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ ls
+file1.txt  file2.txt  file3.txt
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ cat file1.txt
+HELLO.. THIS IS FILE NO 1
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ cat file1.txt file2.txt
+HELLO.. THIS IS FILE NO 1THIS IS FILE NO 2
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ cat> file4.txt
+hello this is file is created from terminal
+
+ls
+pwd
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ cat> file1.txt > file2.txt
+welcome!
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ cat file1.txt
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ ls
+file1.txt  file2.txt  file3.txt  file4.txt
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ cat> file1.txt
+this is file 1
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ cat> file3.txt
+this is file 3
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ ls
+file1.txt  file2.txt  file3.txt  file4.txt
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ mkdir dummy
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ ls
+dummy/  file1.txt  file2.txt  file3.txt  file4.txt
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ rmdir -v dummy
+rmdir: removing directory, 'dummy'
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ ls
+file1.txt  file2.txt  file3.txt  file4.txt
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ cat -n file3.txt
+     1  this is file 3
+     2  this is file 3
+     3  this is file 3
+     4  this is file 3
+     5  this is file 3
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ cat file1.txt
+cat
+
+
+zebra
+
+
+jiraf
+
+
+lion
+
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ cat file1.txt |sort>
+bash: syntax error near unexpected token `newline'
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ cat file1.txt | sort
+
+
+
+
+
+
+
+cat
+jiraf
+lion
+zebra
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ ls
+file1.txt  file2.txt  file3.txt  file4.txt
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$ ^C
+
+Anirudha@Anirudha-PC MINGW64 /e/fsdtraining/day1/gitexample
+$
